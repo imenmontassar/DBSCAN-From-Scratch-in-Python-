@@ -13,7 +13,7 @@ Based on these parameters, DBSCAN classifies points into three categories:
   2• Border Point: A point that is not a core point but is in the neighborhood of a core point.
   3• Noise Point: A point that is neither a core point nor a border point.
 
-The figure below corresponds the clustering results using DBCAN:![Figure 2024-07-06 150723](https://github.com/imenmontassar/DBSCAN-From-Scratch-in-Python-/assets/100312899/67820bd9-b9e4-46a2-9e8c-61580b933e64)
+![Figure 2024-07-06 150723](https://github.com/imenmontassar/DBSCAN-From-Scratch-in-Python-/assets/100312899/67820bd9-b9e4-46a2-9e8c-61580b933e64)
 
 
 
