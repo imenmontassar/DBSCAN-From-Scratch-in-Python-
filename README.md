@@ -6,10 +6,14 @@ DBSCAN is a powerful clustering algorithm used in machine learning and data mini
 ## Fundamental Concepts of DBSCAN:
 
 DBSCAN relies on two key parameters:  
-  1. Epsilon (ε): The maximum distance between two samples for them to be considered as part of the same neighborhood.
+  1. Epsilon (ε): The maximum distance between two samples to be considered part of the same neighborhood.
   2. MinPts: The minimum number of samples in a neighborhood to define a cluster.
 Based on these parameters, DBSCAN classifies points into three categories:
   1• Core Point: A point with at least MinPts neighbors within ε.
   2• Border Point: A point that is not a core point but is in the neighborhood of a core point.
   3• Noise Point: A point that is neither a core point nor a border point.
+
+The figure below corresponds the clustering results using DBCAN:![Figure 2024-07-06 150723](https://github.com/imenmontassar/DBSCAN-From-Scratch-in-Python-/assets/100312899/67820bd9-b9e4-46a2-9e8c-61580b933e64)
+
+
 
